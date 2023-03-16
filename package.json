@@ -1,0 +1,15 @@
+{
+  "name": "venue-server",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fakebase": "^0.3.0",
+    "graphql": "^16.6.0"
+  },
+  "scripts": {
+   "dev": "nodemon server.js" 
+  }
+}

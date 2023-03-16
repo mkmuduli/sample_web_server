@@ -1,0 +1,24 @@
+type User  {
+    userName: String
+    auth: String
+}
+
+type Event {
+    name: String
+    date: String
+    location: String
+    hostBy: String,
+    eventId: String
+    totalTicket: Int
+    availableTicket: Int,
+}
+
+type Ticket {
+    eventName: String
+    count: Int
+}
+
+type Query {
+    events:[Event]
+    user(userName:String): User
+}
